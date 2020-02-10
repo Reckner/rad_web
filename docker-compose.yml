@@ -1,0 +1,11 @@
+version: '3'
+services:
+    rad_web-service:
+        container_name: rad_web
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        ports:
+            - '5777:5777'
+        volumes:
+            - .:/usr/src/app

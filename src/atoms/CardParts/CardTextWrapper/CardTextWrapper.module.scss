@@ -1,0 +1,28 @@
+.textWrapper {
+    height: 41.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 23px 0px 20px !important;
+}
+
+.text {
+    padding-top: 5px;
+    font-family: lato, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 17px;
+    margin-bottom: 0;
+}
+
+.price {
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 43px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,22 @@
+.button {
+    color: #fff;
+    background-color: #651f86 !important;
+    border-color: #88629a !important;
+    padding: 0 12px !important;
+    height: 40px;
+    width: 100px;
+
+    p {
+        margin: 0;
+    }
+}
+
+.favorite {
+    border: 1px solid #88629a;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
